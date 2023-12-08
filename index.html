@@ -61,28 +61,28 @@
         <div class="container">
           <h2 class="advantages-chapter">Advantages</h2>
           <ul class="advantages-list">
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Strategy</h3>
               <p class="advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Punctuality</h3>
               <p class="advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Diligence</h3>
               <p class="advantages-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="advantages-item">
               <h3 class="advantages-title">Technologies</h3>
               <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -103,8 +103,10 @@
                 alt="Product Designer"
                 width="264"
                 height="260" />
-              <h3 class="specialists-name">Mark Guerrero</h3>
-              <p class="specialists-text">Product Designer</p>
+              <div class="specialists-content">
+                <h3 class="specialists-name">Mark Guerrero</h3>
+                <p class="specialists-text">Product Designer</p>
+              </div>
             </li>
             <li class="specialists-card">
               <img
@@ -112,8 +114,10 @@
                 alt="Frontend Developer"
                 width="264"
                 height="260" />
-              <h3 class="specialists-name">Tom Ford</h3>
-              <p class="specialists-text">Frontend Developer</p>
+              <div class="specialists-content">
+                <h3 class="specialists-name">Tom Ford</h3>
+                <p class="specialists-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="specialists-card">
               <img
@@ -121,8 +125,10 @@
                 alt="Marketing"
                 width="264"
                 height="260" />
-              <h3 class="specialists-name">Camila Garcia</h3>
-              <p class="specialists-text">Marketing</p>
+              <div class="specialists-content">
+                <h3 class="specialists-name">Camila Garcia</h3>
+                <p class="specialists-text">Marketing</p>
+              </div>
             </li>
             <li class="specialists-card">
               <img
@@ -130,8 +136,10 @@
                 alt="UI Designer"
                 width="264"
                 height="260" />
-              <h3 class="specialists-name">Daniel Wilson</h3>
-              <p class="specialists-text">UI Designer</p>
+              <div class="specialists-content">
+                <h3 class="specialists-name">Daniel Wilson</h3>
+                <p class="specialists-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -141,13 +149,76 @@
         <div class="container">
           <h2 class="portfolio-chapter">Our Portfolio</h2>
           <ul class="portfolio-list">
-            <div class="portfolio-list-row1">
-              <li>
+            <li class="portfolio-card">
+              <img src="./images/banking.jpg" alt="BankApp" width="360" />
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/cashless.jpg"
+                alt="Cashless Payment"
+                width="360" />
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/meditation.jpg"
+                alt="Meditation App"
+                width="360" />
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </li>
+
+            <li class="portfolio-card">
+              <img src="./images/taxi.jpg" alt="Taxi Service" width="360" />
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/screen.jpg"
+                alt="Screen Illustrations"
+                width="360" />
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/courses.jpg"
+                alt="Online Courses"
+                width="360" />
+              <div class="portfolio-content">
+                <h3 class="portfolio-title">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- cписок разделен на два блока div
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="portfolio-chapter">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <div class="portfolio-list-row">
+              <li class="portfolio-card">
                 <img src="./images/banking.jpg" alt="BankApp" width="360" />
                 <h3 class="portfolio-title">Banking App</h3>
                 <p class="portfolio-text">App</p>
               </li>
-              <li>
+              <li class="portfolio-card">
                 <img
                   src="./images/cashless.jpg"
                   alt="Cashless Payment"
@@ -155,7 +226,7 @@
                 <h3 class="portfolio-title">Cashless Payment</h3>
                 <p class="portfolio-text">Marketing</p>
               </li>
-              <li>
+              <li class="portfolio-card">
                 <img
                   src="./images/meditation.jpg"
                   alt="Meditation App"
@@ -164,13 +235,14 @@
                 <p class="portfolio-text">App</p>
               </li>
             </div>
-            <div class="portfolio-list-row2">
-              <li>
+
+            <div class="portfolio-list-row">
+              <li class="portfolio-card">
                 <img src="./images/taxi.jpg" alt="Taxi Service" width="360" />
                 <h3 class="portfolio-title">Taxi Service</h3>
                 <p class="portfolio-text">Marketing</p>
               </li>
-              <li>
+              <li class="portfolio-card">
                 <img
                   src="./images/screen.jpg"
                   alt="Screen Illustrations"
@@ -178,7 +250,7 @@
                 <h3 class="portfolio-title">Screen Illustrations</h3>
                 <p class="portfolio-text">Design</p>
               </li>
-              <li>
+              <li class="portfolio-card">
                 <img
                   src="./images/courses.jpg"
                   alt="Online Courses"
@@ -190,6 +262,7 @@
           </ul>
         </div>
       </section>
+      -->
     </main>
     <footer class="footer-section">
       <div class="container">
